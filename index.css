@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* similer styles */
+.text-center {
+  text-align: center;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  max-width: 1440px;
+  margin: 0px auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 60px;
+}
+nav > button {
+  padding: 7px 10px;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+/* header */
+/* banner section */
+header > section {
+  height: 652px;
+  background-image: url("/assets/Hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 30px 221px;
+  text-align: center;
+}
+
+header > section h1 {
+  font-size: 48px;
+  font-weight: 800;
+  margin-top: 25px;
+}
+header > section p {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 25px;
+}
+header > section button {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 50px;
+  color: #ffffff;
+  background-color: #0d1321;
+  padding: 18px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* main section */
+main {
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
+main > section {
+  /* background-image: linear-gradient(to top(45deg), #a8c0ff, #3f2b96); */
+  background-image: linear-gradient(to right, #a8c1ff35, #795df326);
+  margin: 90px 0px;
+  padding: 80px 97px;
+}
