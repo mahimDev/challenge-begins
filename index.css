@@ -36,7 +36,7 @@ nav > button {
 /* banner section */
 header > section {
   height: 652px;
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("assets/Hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 30px 221px;
