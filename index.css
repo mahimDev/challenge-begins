@@ -146,16 +146,15 @@ main > section {
   font-weight: 400;
   margin: 10px 0px;
 }
-.target-item > button {
+
+.target-item-anckor {
+  color: #000000;
+  border-bottom: 2px solid #0d1321;
+  text-decoration: none;
   font-size: 16px;
   font-weight: 700;
   margin-top: 10px;
-  border: none;
-  background-color: transparent;
-  border-bottom: 2px solid #0d1321;
-  cursor: pointer;
 }
-
 /* support-section */
 .support-section {
   background-image: url("assets/handshake.jpg");
@@ -164,7 +163,6 @@ main > section {
   background-position: 40%;
   background-size: cover;
   border-radius: 20px;
-  /* padding: 64px 48px; */
   text-align: center;
   align-items: center;
 }
