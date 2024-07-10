@@ -168,7 +168,12 @@ main > section {
 }
 /* support-section */
 .support-section {
-  background-image: url("assets/handshake.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("assets/handshake.jpg");
   background-repeat: no-repeat;
   height: 250px;
   background-position: 40%;
