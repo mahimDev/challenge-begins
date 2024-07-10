@@ -58,7 +58,7 @@ header > section button {
   font-weight: 600;
   margin-top: 50px;
   color: #ffffff;
-  background-color: #0d1321;
+  background-color: #000000;
   padding: 18px 25px;
   border-radius: 5px;
   cursor: pointer;
@@ -102,14 +102,19 @@ main > section {
   font-weight: 400;
   padding: 16px 0px;
 }
-.development-item > button {
+.anckor-btn {
   background-color: rgba(255, 255, 255, 0.311);
   border-radius: 5px;
   font-size: 18px;
   font-weight: 500;
+  color: #000000;
+  text-decoration: none;
   padding: 12px 20px;
 }
-
+.anckor-btn a {
+  text-decoration: none;
+  color: #000000;
+}
 /* current target section */
 .background-color-1 {
   background-color: rgb(255, 76, 30, 5%);
