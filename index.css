@@ -67,3 +67,37 @@ main > section {
   margin: 90px 0px;
   padding: 80px 97px;
 }
+.background-gradient-right {
+  background-image: linear-gradient(to right, #795df326, #feffff69);
+}
+.background-gradient-left {
+  background-image: linear-gradient(to right, #feffff35, #795df326);
+}
+.development-items {
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #ffffff; */
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 32px;
+  padding: 48px;
+}
+.development-item {
+  max-width: 477px;
+}
+.development-item > h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+.development-item > p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 0px;
+}
+.development-item > button {
+  background-color: rgba(255, 255, 255, 0.311);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 20px;
+}
