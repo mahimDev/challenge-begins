@@ -4,8 +4,16 @@
   padding: 0px;
 }
 /* similer styles */
-.text-center {
+.section-title {
   text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+.section-description {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 24px 0px;
 }
 
 body {
@@ -62,10 +70,11 @@ main {
 }
 
 main > section {
-  /* background-image: linear-gradient(to top(45deg), #a8c0ff, #3f2b96); */
-  background-image: linear-gradient(to right, #a8c1ff35, #795df326);
   margin: 90px 0px;
   padding: 80px 97px;
+}
+.background-gradient {
+  background-image: linear-gradient(to right, #a8c1ff35, #795df326);
 }
 .background-gradient-right {
   background-image: linear-gradient(to right, #795df326, #feffff69);
@@ -76,7 +85,6 @@ main > section {
 .development-items {
   display: flex;
   justify-content: space-between;
-  /* background-color: #ffffff; */
   align-items: center;
   border-radius: 5px;
   margin-top: 32px;
